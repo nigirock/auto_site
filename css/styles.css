@@ -1,0 +1,417 @@
+@import url(../css/fotorama.css);
+@import url(../css/bootstrap.css);
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wrap {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #999999;
+  padding-top: 2em;
+}
+.wrap input[type="checkbox"] {
+  cursor: pointer;
+}
+.color_orange {
+  color: #ee5533;
+}
+.color_blue {
+  color: #225599;
+}
+.color_gray {
+  color: #e6e6e6;
+}
+.color_black {
+  color: #000000;
+}
+.color_dark_gray {
+  color: #999999;
+}
+.preview {
+  display: none;
+  position: absolute;
+  left: 42%;
+  z-index: 10;
+  background: #444444;
+  padding: 1em;
+  top: -2em;
+}
+.fotorama__nav-wrap {
+  margin-top: 1em;
+}
+.fotorama__nav-wrap .fotorama__thumb-border {
+  border-color: #fff;
+}
+.triangle-left {
+  position: absolute;
+  left: -23px;
+  top: 75px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 25px solid #444444;
+  border-bottom: 15px solid transparent;
+}
+.visible_block {
+  display: block;
+  top: 9em;
+}
+.price button {
+  border: 1px solid transparent;
+  background: transparent;
+  font-weight: bold;
+}
+.btn-group li {
+  padding: 10px;
+  cursor: pointer;
+  float: left;
+  border: 1px solid #D5D4D4;
+  border-radius: 5px;
+  margin: 0 3px;
+}
+.btn-group li:hover {
+  background: #989898;
+  color: #fff;
+}
+.active-class {
+  background: #989898;
+  color: #fff;
+}
+/*filter*/
+.filter {
+  border: 2px solid #d9d9d9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2em;
+}
+.filter span {
+  font-size: 15px;
+}
+.filter span b {
+  font-size: 12px;
+}
+.filter a {
+  text-decoration: none !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+.select-price {
+  padding-bottom: 15px;
+}
+.group_but {
+  padding-right: 0 !important;
+}
+.form-group1 {
+  width: 45%;
+  float: left;
+  padding-left: 15px;
+}
+.dash {
+  padding-left: 3%;
+}
+.form-group2 {
+  width: 45%;
+  float: right;
+  padding-right: 15px;
+}
+.price {
+  margin-bottom: 10px;
+}
+.price_form {
+  margin: 15px 0;
+  width: 100%;
+}
+.top_border {
+  border-top: 1px dashed #d9d9d9;
+  padding-top: 15px;
+}
+/*Catalog car*/
+.catalog {
+  padding: 0 0 2em 0 !important;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 2em;
+}
+.catalog .checkbox {
+  margin-top: 1em;
+}
+.catalog .checkbox input[type="checkbox"] {
+  top: 20px;
+}
+.catalog .checkbox .equal {
+  width: 80px;
+  position: absolute;
+  top: 20px;
+  right: 5.5em;
+}
+.catalog .checkbox .in_equal {
+  display: none;
+  color: #ee5533;
+  width: 100%;
+  right: 80px;
+  position: absolute;
+  top: 20px;
+}
+.item_catalog {
+  position: relative;
+  padding-top: 1em;
+}
+.item_catalog img {
+  cursor: pointer;
+}
+.vertical_text {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.name_car h3 {
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+.text_catalog {
+  float: right;
+}
+.text_catalog .name_price {
+  padding-top: 1em;
+}
+.bold_price {
+  font: 19px bold;
+}
+.bold_black {
+  color: #000000;
+  font-weight: bold;
+}
+.span_margin {
+  margin-right: 2em;
+}
+/*bottom*/
+.bottom {
+  padding: 2em 0;
+}
+.bottom .next_page {
+  padding-left: 30%;
+}
+.number_page {
+  font-size: 15px;
+}
+@media screen and (max-width: 991px) {
+  .preview {
+    width: 58%;
+  }
+  .preview button {
+    margin-left: 69%!important;
+  }
+  .select-price .form-group1 {
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 1em;
+  }
+  .select-price .dash {
+    display: none;
+  }
+  .select-price .form-group2 {
+    clear: both;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .catalog .checkbox span {
+    top: 20px;
+    right: 4em !important;
+    width: 80px;
+  }
+  .bottom .next_page {
+    margin-top: 1em;
+  }
+  .bottom .next_page a {
+    padding: 1em 0 2em 1em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .preview {
+    width: 55%;
+  }
+  .preview button {
+    margin-left: 75%;
+  }
+  .bottom {
+    padding-top: 0 !important;
+  }
+  .bottom .btn-toolbar {
+    margin: 0 auto;
+    padding: 2em 0 1em 0;
+  }
+  .bottom .number_page {
+    padding-left: 25%;
+  }
+}
+@media screen and (max-width: 721px) {
+  .preview {
+    width: 55%;
+  }
+  .preview button {
+    margin-left: 60%!important;
+  }
+  .catalog {
+    margin-bottom: 0;
+  }
+  .catalog .checkbox span {
+    top: 20px;
+    right: 3em;
+    width: 80px;
+  }
+  .bottom {
+    padding-top: 0 !important;
+  }
+  .bottom .btn-toolbar {
+    margin: 0 auto;
+    padding: 2em 0em 1em 0em;
+  }
+  .bottom .number_page {
+    padding-left: 25%;
+  }
+}
+@media screen and (max-width: 481px) {
+  .catalog .checkbox span {
+    top: 15px;
+    right: 2em !important;
+    width: 80px;
+  }
+  .bottom {
+    padding-top: 0 !important;
+  }
+  .bottom .number_page {
+    padding-left: 5%;
+  }
+  .bottom .next_page {
+    padding-left: 7em;
+  }
+  .bottom .next_page a {
+    padding: 0;
+  }
+  .bottom .btn-toolbar {
+    padding: 2em 0 1em 0;
+  }
+}

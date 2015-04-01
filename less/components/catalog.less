@@ -1,0 +1,65 @@
+/*Catalog car*/
+@import "../variables-color";
+@import "../mixins";
+
+.catalog {
+  padding: 0 0 2em 0 !important;
+  border-bottom: 2px solid @color-gray;
+  margin-bottom: 2em;
+  .checkbox {
+    margin-top: 1em;
+    input[type="checkbox"] {
+      top: 20px;
+    }
+    .equal{
+      width: 80px;
+      position: absolute;
+      top: 20px;
+      right: 5.5em;
+    }
+    .in_equal{
+      display: none;
+      color: @color_orange;
+      width: 100%;
+      right: 80px;
+      position: absolute;
+      top: 20px;
+    }
+  }
+}
+.item_catalog{
+  position: relative;
+  padding-top: 1em;
+  img{
+    cursor: pointer;
+  }
+}
+
+.vertical_text{
+  .transform(270deg);
+}
+
+.name_car {
+  h3 {
+    margin: 0 0 10px 0;
+    cursor: pointer;
+  }
+}
+
+  .text_catalog{
+    float: right;
+    .name_price{
+      padding-top: 1em;
+    }
+  }
+
+  .bold_price{
+    font: 19px bold;
+  }
+  .bold_black{
+    color: @color_black;
+    font-weight: bold;
+  }
+  .span_margin{
+    margin-right: 2em;
+  }

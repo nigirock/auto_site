@@ -1,0 +1,32 @@
+@import "../variables-color";
+
+.preview{
+  display: none;
+  position: absolute;
+  left: 42%;
+  z-index: 10;
+  background: @color_gray_444;
+  padding: 1em;
+  top: -2em;
+}
+
+.fotorama__nav-wrap{
+  margin-top: 1em;
+  .fotorama__thumb-border{
+    border-color: #fff;
+  }
+}
+.triangle-left {
+  position: absolute;
+  left: -23px;
+  top: 75px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 25px solid @color_gray_444;
+  border-bottom: 15px solid transparent;
+}
+.visible_block{
+  display: block;
+  top: 9em;
+}

@@ -1,0 +1,127 @@
+{
+    "auto":[
+    {
+        "name": "Audi A4",
+        "price$": "8700",
+        "priceRub": "299 433",
+        "years": "1999",
+        "km": "220 000",
+        "img": "images/audi.jpg",
+        "imgBig": "images/audi-big.jpg",
+        "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+    },
+    {
+        "name": "Mercedes S500 long",
+        "price$": "10 800",
+        "priceRub": "371 109",
+        "years": "2000",
+        "km": "351 000",
+        "img": "images/mercedes.jpg",
+        "img1": "images/ford.jpg",
+        "img2": "images/mercedes.jpg",
+        "imgBig": "images/mercedes-big.jpg",
+        "imgBig1": "images/bmw-big.jpg",
+        "imgBig2": "images/toyota-big.jpg",
+        "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+    },
+    {
+        "name": "Ford Mondeo <span>&#8546</span> Ghia",
+        "price$": "7 600",
+        "priceRub": "261 573",
+        "years": "2001",
+        "km": "169 500",
+        "img": "images/ford.jpg",
+        "imgBig": "images/ford-big.jpg",
+        "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+    },
+    {
+        "name": "BMW X6 35i xDrive",
+        "price$": "49 999",
+        "priceRub": "1 720 841",
+        "years": "2008",
+        "km": "59 000",
+        "img": "images/bmw.jpg",
+        "img1": "images/ford.jpg",
+        "img2": "images/mercedes.jpg",
+        "imgBig": "images/bmw-big.jpg",
+        "imgBig1": "images/bmw-big.jpg",
+        "imgBig2": "images/toyota-big.jpg",
+        "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+    },
+    {
+        "name": "Toyota Celica GT",
+        "price$": "13 700",
+        "priceRub": "471 520",
+        "years": "2001",
+        "km": "169 500",
+        "img": "images/toyota.jpg",
+        "img1": "images/ford.jpg",
+        "img2": "images/mercedes.jpg",
+        "imgBig": "images/toyota-big.jpg",
+        "imgBig1": "images/bmw-big.jpg",
+        "imgBig2": "images/toyota-big.jpg",
+        "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+    },
+        {
+            "name": "BMW M3",
+            "price$": "8700",
+            "priceRub": "299 433",
+            "years": "1999",
+            "km": "220 000",
+            "img": "images/bmw-m3.jpg",
+            "imgBig": "images/bmw-m3.jpg",
+            "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+        },
+        {
+            "name": "Mercedes S500 long",
+            "price$": "10 800",
+            "priceRub": "371 109",
+            "years": "2000",
+            "km": "351 000",
+            "img": "images/mercedes.jpg",
+            "img1": "images/ford.jpg",
+            "img2": "images/mercedes.jpg",
+            "imgBig": "images/mercedes-big.jpg",
+            "imgBig1": "images/bmw-big.jpg",
+            "imgBig2": "images/toyota-big.jpg",
+            "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+        },
+        {
+            "name": "Ford Mondeo <span>&#8546</span> Ghia",
+            "price$": "7 600",
+            "priceRub": "261 573",
+            "years": "2001",
+            "km": "169 500",
+            "img": "images/ford.jpg",
+            "imgBig": "images/ford-big.jpg",
+            "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+        },
+        {
+            "name": "BMW X6 35i xDrive",
+            "price$": "49 999",
+            "priceRub": "1 720 841",
+            "years": "2008",
+            "km": "59 000",
+            "img": "images/bmw.jpg",
+            "img1": "images/ford.jpg",
+            "img2": "images/mercedes.jpg",
+            "imgBig": "images/bmw-big.jpg",
+            "imgBig1": "images/bmw-big.jpg",
+            "imgBig2": "images/toyota-big.jpg",
+            "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+        },
+        {
+            "name": "Toyota Celica GT",
+            "price$": "13 700",
+            "priceRub": "471 520",
+            "years": "2001",
+            "km": "169 500",
+            "img": "images/toyota.jpg",
+            "img1": "images/ford.jpg",
+            "img2": "images/mercedes.jpg",
+            "imgBig": "images/toyota-big.jpg",
+            "imgBig1": "images/bmw-big.jpg",
+            "imgBig2": "images/toyota-big.jpg",
+            "description": "седан, бензин 1.8л, автомат, передний привод, кондиционер, парктроник, подогрев сидений,система контроля стабилизации, легкосплавные диски."
+        }
+]}

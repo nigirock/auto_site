@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
+    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="jquery-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="Node.js v0.12.0 Core Modules" level="application" />
+    <orderEntry type="library" name="Node.js v0.10.35 Core Modules" level="application" />
+    <orderEntry type="library" name="less-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="watch-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-hotkeys-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-ui-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="animation-frame-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="backbone-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="backbone-relational-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="stylus-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="underscore-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="underscore-ko-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="underscore.string-DefinitelyTyped" level="application" />
+  </component>
+</module>
